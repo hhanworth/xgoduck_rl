@@ -1,0 +1,11 @@
+{
+  "state": "completed",
+  "task": "stand",
+  "device": "cpu",
+  "timesteps": 192,
+  "new_timesteps": 64,
+  "elapsed_seconds": 0.41014479100704193,
+  "steps_per_second": 156.0424547703232,
+  "warmstart": null,
+  "hardware_validated": false
+}

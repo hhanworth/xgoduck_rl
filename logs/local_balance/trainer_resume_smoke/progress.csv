@@ -1,0 +1,2 @@
+episodes/stand_fraction,time/fps,episodes/l,episodes/fell,rollout/ep_rew_mean,time/iterations,time/total_timesteps,rollout/success_rate,episodes/recovered,episodes/is_success,episodes/r,rollout/ep_len_mean,time/time_elapsed
+0.012345679012345678,1335,81.0,1.0,25.223694,1,192,0.0,0.0,0.0,25.223694,81.0,0

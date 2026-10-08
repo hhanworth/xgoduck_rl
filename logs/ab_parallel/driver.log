@@ -1,0 +1,6 @@
+Launching A and C in parallel: num_envs=256 iterations=2000 seed=0
+A pid=37271  C pid=37272
+logs: logs/ab_parallel/A.log  logs/ab_parallel/C.log
+[C] exited with code 0
+[A] exited with code 0
+Both runs finished.

@@ -15,7 +15,16 @@ wheels/
 
 # Logs and databases
 wandb
-logs
+# 训练日志入库，但训练权重/模型检查点不入库。
+# 先忽略 logs 下所有内容，再逐层放行子目录，最后放行日志类文件。
+logs/*
+!logs/**/
+logs/**/*.pt
+logs/**/*.zip
+logs/**/*.pkl
+logs/**/*.onnx
+logs/**/*.npz
+logs/**/.DS_Store
 agents
 AGENTS.md
 CLAUDE.md

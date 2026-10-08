@@ -1,0 +1,22 @@
+{
+  "checkpoint": "artifacts/xgoduck_balance_v1/checkpoint/model_50004.zip",
+  "normalization": null,
+  "output": "logs/robust_balance_v2/smoke",
+  "timesteps": 256,
+  "checkpoint_steps": 0,
+  "cpu_duty": 0.35,
+  "learning_rate": 3e-06,
+  "log_std": -2.7,
+  "seed": 8675309,
+  "episode_seconds": 16.0,
+  "algorithm": "PPO",
+  "num_envs": 1,
+  "device": "cpu",
+  "torch_threads": 1,
+  "fixed_observation_normalization": true,
+  "n_steps": 256,
+  "n_epochs": 3,
+  "batch_size": 128,
+  "checkpoint_sha256": "1ce0205fb92069fdf341821324e92920ea5219dc522a0fdef2ac49d49d50ffee",
+  "normalization_sha256": "a13df0b7fe8bcd2168a9cd2d367a206aecc44227350569d8fa156f215b61c6f7"
+}

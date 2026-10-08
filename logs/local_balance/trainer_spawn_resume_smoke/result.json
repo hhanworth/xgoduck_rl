@@ -1,0 +1,41 @@
+{
+  "state": "completed",
+  "task": "stand",
+  "device": "cpu",
+  "timesteps": 128,
+  "new_timesteps": 64,
+  "elapsed_seconds": 0.5680549591779709,
+  "steps_per_second": 112.66515495721407,
+  "warmstart": null,
+  "hardware_validated": false,
+  "onnx": {
+    "path": "/Volumes/GVE-1T/Document/duck/xgoduck_rl/logs/local_balance/trainer_spawn_resume_smoke/policy.onnx",
+    "sha256": "d5a116e0b51f72a10342151572e06776cf86cd3800afb52d0ac5fe7cadbca399",
+    "input_shape": [
+      1,
+      61
+    ],
+    "output_shape": [
+      1,
+      14
+    ],
+    "opset": 18,
+    "ir_version": 8,
+    "onnxruntime_version": "1.22.1",
+    "max_absolute_error": 1.3113021850585938e-06,
+    "metadata": {
+      "run_path": "/Volumes/GVE-1T/Document/duck/xgoduck_rl/logs/local_balance/trainer_spawn_resume_smoke",
+      "task": "stand",
+      "joint_names": "left_hip_yaw,left_hip_roll,left_hip_pitch,left_knee,left_ankle,neck_pitch,head_pitch,head_yaw,head_roll,right_hip_yaw,right_hip_roll,right_hip_pitch,right_knee,right_ankle",
+      "default_joint_pos": "0,-0.0872664601,-0.401425719,0,0.401425719,0.34906584,0.34906584,0,0,0,0.0872664601,0.401425719,0,-0.401425719",
+      "action_scale": "1.0",
+      "control_frequency_hz": "50",
+      "observation_names": "base_ang_vel,projected_gravity,joint_pos,joint_vel,actions,command,head_command,body_command",
+      "command_names": "twist,head_pose,body_pose",
+      "observation_normalization": "embedded",
+      "training_framework": "stable-baselines3 PPO",
+      "timesteps": "128",
+      "deployment_status": "simulation training; hardware not validated"
+    }
+  }
+}
